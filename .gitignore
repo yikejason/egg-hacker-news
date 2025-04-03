@@ -13,3 +13,10 @@ run/
 *.un~
 typings/
 .nyc_output/
+
+app/**/*.js
+test/**/*.js
+config/**/*.js
+app/**/*.map
+test/**/*.map
+config/**/*.map

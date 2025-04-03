@@ -1,0 +1,15 @@
+{
+  "extends":"@eggjs/tsconfig",
+  "compilerOptions": {
+    "declaration": false,
+  },
+  "exclude": [
+    "app/public",
+    "app/views",
+  ],
+  "include": [
+    "app/**/*.ts",
+    "config/**/*.ts",
+    "test/**/*.ts"
+  ]
+}
